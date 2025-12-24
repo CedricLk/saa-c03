@@ -9,8 +9,14 @@
 	"build": {
         "context": ".",
         "dockerfile": "Dockerfile"
-    }
-	// Features add additional features to your environment. See https://containers.dev/features
+    },
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": ["dbaeumer.vscode-eslint"]
+		}
+	}
+    // Features add additional features to your environment. See https://containers.dev/features
 	// Beware: features are not supported on all platforms and may have unintended side-effects.
 	// "features": {
     //   "ghcr.io/devcontainers/features/docker-in-docker": {
